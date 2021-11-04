@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="battle.css" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+        <title>BattleShip Game</title>
+    </head>
+    <body >
+        <h1 class="font">BattleShip</h1>
+        <h3>Selecciona la posición de tus naves</h3>
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <div class="myRow">
+                        <div class="gridCode">1</div>
+                        <div class="gridCode">2</div>
+                        <div class="gridCode">3</div>
+                        <div class="gridCode">4</div>
+                        <div class="gridCode">5</div>
+                        <div class="gridCode">6</div>
+                        <div class="gridCode">7</div>
+                        <div class="gridCode">8</div>
+                        <div class="gridCode">9</div>
+                        <div class="gridCode">10</div>
+                    </div>
+                                                        <div class="myColun">
+                                                            <div class="gridCode1"> </div>
+                                                            <div class="gridCode1">A</div>
+                                                            <div class="gridCode1">B</div>
+                                                            <div class="gridCode1">C</div>
+                                                            <div class="gridCode1">D</div>
+                                                            <div class="gridCode1">E</div>
+                                                            <div class="gridCode1">F</div>
+                                                            <div class="gridCode1">G</div>
+                                                            <div class="gridCode1">H</div>
+                                                            <div class="gridCode1">I</div>
+                                                            <div class="gridCode1">J</div>
+                                                        </div>
+
+                    <div id="board">
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="boardAttack" >
+                                        <div class="myRow">
+                                            <div class="gridCode">1</div>
+                                            <div class="gridCode">2</div>
+                                            <div class="gridCode">3</div>
+                                            <div class="gridCode">4</div>
+                                            <div class="gridCode">5</div>
+                                            <div class="gridCode">6</div>
+                                            <div class="gridCode">7</div>
+                                            <div class="gridCode">8</div>
+                                            <div class="gridCode">9</div>
+                                            <div class="gridCode">10</div>
+                                        </div>
+
+                                      <div class="myColun">
+                                           <div class="gridCode1"> </div>
+                                            <div class="gridCode1">A</div>
+                                            <div class="gridCode1">B</div>
+                                            <div class="gridCode1">C</div>
+                                            <div class="gridCode1">D</div>
+                                            <div class="gridCode1">E</div>
+                                            <div class="gridCode1">F</div>
+                                            <div class="gridCode1">G</div>
+                                            <div class="gridCode1">H</div>
+                                            <div class="gridCode1">I</div>
+                                            <div class="gridCode1">J</div>
+                                        </div>
+                  
+                    </div>
+                </div>
+            </div>
+            <h4 id="titulo">Tus naves:</h4>
+            <div id="ships" class="row">
+                <div class="col"> 
+                    <div>
+                        <span id="titulo">Portaviones</span></br>
+                        <span id="titulo">Tamaño: 5</span>
+                    </div>
+                    <div class="position"></div>
+                </div>
+                <div class="col"> 
+                    <div>
+                        <span id="titulo">Acorazado</span></br>
+                        <span id="titulo">Tamaño: 4</span>
+                    </div>
+                    <div class="position"></div>
+                </div>
+                <div class="col"> 
+                    <div>
+                        <span id="titulo">Submarino</span></br>
+                        <span id="titulo">Tamaño: 3</span>
+                    </div>
+                    <div class="position"></div>
+                </div>
+                <div class="col"> 
+                    <div>
+                        <span id="titulo">Destructor</span></br>
+                        <span id="titulo">Tamaño: 2</span>
+                    </div>
+                    <div class="position"></div>
+                </div>           
+            </div>
+                <div class="row">
+                    <button id="button" onclick="startGame()" >START</button>
+                </div>
+            
+        </div>
+        <script type="text/javascript" src="battle.js"></script>
+    </body>
+</html>
